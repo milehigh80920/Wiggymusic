@@ -60,3 +60,8 @@
 .social-button span{font-size:22px;font-weight:700;font-family:Arial,sans-serif;font-style:italic}
 @media(max-width:800px){.show-card{grid-template-columns:1fr;gap:18px}.show-poster{max-width:620px}.show-details{padding:0}.social-links{order:initial;width:auto}.site-footer{flex-wrap:wrap}.copyright{margin-left:auto}}
 @media(max-width:480px){.social-button{width:36px;height:36px}.social-links{gap:8px}}
+
+
+/* Make booking types easier to read at a glance. */
+.hero-meta{font-size:16px;line-height:1.5}
+@media(max-width:800px){.hero-meta{font-size:15px}}
