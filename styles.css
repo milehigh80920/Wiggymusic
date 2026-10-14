@@ -29,6 +29,21 @@
 @media(max-width:800px){.show-card{grid-template-columns:1fr;gap:18px}.show-poster{max-width:620px}.show-details{padding:0}.social-links{order:initial;width:auto}.site-footer{flex-wrap:wrap}.copyright{margin-left:auto}}
 @media(max-width:480px){.social-button{width:36px;height:36px}.social-links{gap:8px}}
 
+.calendar-intro{display:flex;justify-content:space-between;align-items:end;gap:28px;margin:0 0 22px}
+.calendar-intro>div{max-width:660px}
+.calendar-intro .show-tag{margin:0 0 7px}
+.calendar-intro h3,.open-mic-heading h3{font-size:clamp(25px,3vw,36px);margin:0 0 9px}
+.calendar-intro>div>p:last-child,.open-mic-heading>p:last-child{max-width:650px;color:#4b6268;font-size:13px;margin:0;line-height:1.7}
+.calendar-link{color:var(--ink);white-space:nowrap;margin-bottom:4px}
+.calendar-frame{width:100%;height:620px;overflow:hidden;border:1px solid #b9cbd0;border-top:4px solid #278dbc;background:var(--cream);padding:10px;box-shadow:12px 12px 0 rgba(9,35,44,.12)}
+.calendar-frame iframe{display:block;width:100%;height:100%;border:0}
+.open-mic-heading{margin-top:62px}
+.open-mic-heading .eyebrow{margin-bottom:12px}
+.open-mic-heading h3{font-size:clamp(31px,4vw,46px)}
+.show-card{border-top:0;margin-top:8px;padding-top:8px}
+@media(max-width:800px){.calendar-intro{align-items:start;flex-direction:column;gap:16px}.calendar-frame{height:590px}.open-mic-heading{margin-top:48px}}
+@media(max-width:480px){.calendar-frame{height:560px}.calendar-link{white-space:normal}}
+
 /* Open mic poster and social icon buttons */
 .show-card{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);align-items:start;gap:clamp(24px,5vw,64px);padding:30px 0}
 .show-poster{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;background:#071720}
