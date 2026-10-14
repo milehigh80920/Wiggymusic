@@ -65,3 +65,13 @@
 /* Make booking types easier to read at a glance. */
 .hero-meta{font-size:16px;line-height:1.5}
 @media(max-width:800px){.hero-meta{font-size:15px}}
+
+
+/* Keep the supplied photo intact as the YouTube cover. */
+.video-frame.video-cover{display:grid;place-items:center;overflow:hidden;background:#071720}
+.video-cover>img{width:100%;height:100%;object-fit:contain}
+.video-play{position:absolute;left:50%;top:50%;width:76px;height:76px;display:grid;place-items:center;border-radius:50%;background:var(--blue);color:var(--deep);box-shadow:0 6px 28px rgba(0,0,0,.45);transform:translate(-50%,-50%);transition:transform .2s,background .2s}
+.video-play svg{width:31px;height:31px;fill:currentColor;margin-left:4px}
+.video-cover:hover .video-play{background:#8bd8f6;transform:translate(-50%,-50%) scale(1.08)}
+.video-cover-label{position:absolute;right:16px;bottom:14px;padding:7px 10px;background:rgba(5,24,30,.84);color:#eaf8fb;font-size:10px;font-weight:700;letter-spacing:.1em}
+.video-cover-label span{color:var(--blue);margin-left:5px}
