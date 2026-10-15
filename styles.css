@@ -75,3 +75,6 @@
 .video-cover:hover .video-play{background:#8bd8f6;transform:translate(-50%,-50%) scale(1.08)}
 .video-cover-label{position:absolute;right:16px;bottom:14px;padding:7px 10px;background:rgba(5,24,30,.84);color:#eaf8fb;font-size:10px;font-weight:700;letter-spacing:.1em}
 .video-cover-label span{color:var(--blue);margin-left:5px}
+
+@media(max-width:800px){.header-social-links{order:2;margin-left:auto;margin-right:8px}.site-header>.menu-toggle{order:3}}
+@media(max-width:480px){.header-social-links{gap:6px}.header-social-links .social-button{width:32px;height:32px}.header-social-links .social-button svg{width:16px;height:16px}}
